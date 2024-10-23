@@ -20,29 +20,37 @@
   <body>
     <div class="wrapper">
       <header>Send Me a Message</header>
-      <form action="#">
+      <form action="connect.php" method="post">
         <div class="dbl-field">
           <div class="field">
-            <input type="text" placeholder="Enter your name" />
+            <input type="text" name="name" placeholder="Enter your name" />
             <i class="fa-solid fa-user"></i>
           </div>
           <div class="field">
-            <input type="email" placeholder="Enter your email" />
+            <input type="email" name="email" placeholder="Enter your email" />
             <i class="fa-solid fa-envelope"></i>
           </div>
         </div>
         <div class="dbl-field">
           <div class="field">
-            <input type="number" placeholder="Enter your phone number" />
+            <input
+              type="number"
+              name="phone"
+              placeholder="Enter your phone number"
+            />
             <i class="fa-solid fa-phone-alt"></i>
           </div>
           <div class="field">
-            <input type="email" placeholder="Enter your website" />
+            <input
+              type="text"
+              name="website"
+              placeholder="Enter your website"
+            />
             <i class="fa-solid fa-globe"></i>
           </div>
         </div>
         <div class="message">
-          <textarea name="" id="" placeholder="Write your message"></textarea>
+          <textarea name="message" placeholder="Write your message"></textarea>
           <i class="fa-regular fa-message"></i>
         </div>
         <div class="button-area">
